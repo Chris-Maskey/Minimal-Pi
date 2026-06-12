@@ -1,0 +1,31 @@
+# Pi agent configuration
+agent/auth.json
+agent/sessions/
+agent/trust.json
+agent/run-history.jsonl
+
+# Installed packages (reproducible via pi install)
+agent/git/
+agent/npm/
+agent/extensions/
+
+# Environment files with secrets
+.env
+
+# Node modules (in any extension/package directories)
+node_modules/
+
+# Build artifacts
+dist/
+*.js.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

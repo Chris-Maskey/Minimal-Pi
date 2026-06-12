@@ -1,0 +1,17 @@
+{
+  "lastChangelogVersion": "0.79.1",
+  "packages": [
+    "npm:context-mode",
+    "npm:pi-mcp-adapter",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:pi-lens",
+    "npm:@tintinweb/pi-subagents",
+    "npm:pi-markdown-preview",
+    "npm:pi-powerline-footer",
+    "npm:@tintinweb/pi-tasks"
+  ],
+  "defaultProvider": "opencode",
+  "defaultModel": "deepseek-v4-flash-free",
+  "defaultThinkingLevel": "high",
+  "theme": "dark"
+}
