@@ -1,8 +1,6 @@
-# pi — My AI Coding Sidekick
+# pi
 
-This is my personal, minimal pi setup. pi is an AI coding agent I use to help write code, refactor stuff, debug, and generally get things done faster.
-
----
+## This is my personal, minimal pi setup
 
 ## What's Where
 
@@ -95,15 +93,3 @@ The one-pager that keeps pi from going off the rails:
 2. **Keep it simple** — Minimum code that works, nothing extra
 3. **Surgical changes** — Touch only what needs changing, don't refactor nearby stuff for fun
 4. **Prove it works** — Define how you'll verify, loop until confirmed
-
----
-
-## Quick Start
-
-If I were setting this up fresh:
-
-```bash
-npm install -g @earendil-works/pi-coding-agent
-```
-
-Then tweak `agent/settings.json` to pick a model, theme, and install whatever packages are needed.
