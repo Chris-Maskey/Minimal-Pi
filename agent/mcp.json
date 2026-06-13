@@ -3,6 +3,10 @@
     "context-mode": {
       "command": "context-mode",
       "lifecycle": "keep-alive"
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }

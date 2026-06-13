@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.79.1",
+  "lastChangelogVersion": "0.79.2",
   "packages": [
     "npm:context-mode",
     "npm:pi-mcp-adapter",
@@ -8,10 +8,11 @@
     "npm:@tintinweb/pi-subagents",
     "npm:pi-markdown-preview",
     "npm:pi-powerline-footer",
-    "npm:@tintinweb/pi-tasks"
+    "npm:@tintinweb/pi-tasks",
+    "npm:pi-web-access"
   ],
-  "defaultProvider": "opencode",
-  "defaultModel": "deepseek-v4-flash-free",
-  "defaultThinkingLevel": "high",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "low",
   "theme": "dark"
 }
